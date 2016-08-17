@@ -3,16 +3,18 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
-subtitle:
-description:
-author: John Doe
-language:
+title: 呆蜗牛 - Blog
+subtitle: 呆蜗牛个人博客
+description: 个人学习和工作总结博客
+author: 呆蜗牛
+language: zh-Hans
+email: daiwoniu@aliyun.com
 timezone:
+miitbeian_id: 京ICP备16027790号
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://blog.daiwoniu.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -28,13 +30,13 @@ i18n_dir: :lang
 skip_render:
 
 # Writing
-new_post_name: :title.md # File name of new posts
-default_layout: post
-titlecase: false # Transform title into titlecase
-external_link: true # Open external links in new tab
+new_post_name: :title.md #
+default_layout: post  #
+titlecase: false #
+external_link: true #
 filename_case: 0
-render_drafts: false
-post_asset_folder: false
+render_drafts: false  #
+post_asset_folder: false  #
 relative_link: false
 future: true
 highlight:
@@ -48,11 +50,19 @@ default_category: uncategorized
 category_map:
 tag_map:
 
+# Archives
+## 2: Enable pagination
+## 1: Disable pagination
+## 0: Fully Disable
+archive: 2
+category: 2
+tag: 2
+
 # Date / Time format
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD
+date_format: YYYY-MM-DD HH:mm:ss
 time_format: HH:mm:ss
 
 # Pagination
@@ -62,9 +72,27 @@ pagination_dir: page
 
 # Extensions
 ## Plugins: https://hexo.io/plugins/
+duoshuo_shortname: daiwoniu
+duoshuo_share: true
+
+
+# 自动生成sitemap
+# sitemap:
+# path: sitemap.xml
+
+# 自动生成百度sitemap
+baidusitemap:
+path: baidusitemap.xml
+
+# Feed Atom 自动生成rss
+feed:
+  type: atom
+  path: atom.xml
+  limit: 20
+
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: next
+theme: free2mind
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
