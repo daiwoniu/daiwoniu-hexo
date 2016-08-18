@@ -9,8 +9,8 @@ updated: 2016-08-17 18:36:57
 categories: 开发工具
 ---
 ### 2016-08-17 18:36:57
-初始化项目
-``` bash
+###### 初始化项目
+``` stylus
 mkdir testproject
 cd testproject
 git init
@@ -21,14 +21,14 @@ git remote add origin git@git.tdcredit.com:develop/testproject.git   指定本�
 git push -u origin master   将本地库提交到github上。
 ```
 
-设置用户信息：
-``` bash
+###### 设置用户信息：
+``` stylus
 git config --global user.name "defnngj"//给自己起个用户名
 git config --global user.email  "defnngj@gmail.com"//填写自己的邮箱
 ```
 修改git远程地址： 在项目根目录下.git目录下的config文件
 <!--more-->
-基础命令：
+###### 基础命令：
 ``` bash
 git init  初始化目录
 git clone http://.....   克隆仓库到本地

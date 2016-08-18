@@ -16,7 +16,8 @@ miitbeian_id: 京ICP备16027790号
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
 url: http://blog.daiwoniu.com
 root: /
-permalink: :year/:month/:day/:title/
+# permalink: :year/:month/:day/:title/
+permalink: posts/:category/:year-:month-:day-:title.html
 permalink_defaults:
 
 # Directory
@@ -48,6 +49,15 @@ highlight:
 # Category & Tag
 default_category: uncategorized
 category_map:
+  java相关: java
+  帮助手册: help
+  开发工具: develop_tool
+  测试: test
+  系统: system
+  数据库: database
+  前端: client
+  娱乐: recreation
+  其它: other
 tag_map:
 
 # Archives
@@ -62,8 +72,9 @@ tag: 2
 ## Hexo uses Moment.js to parse and display date
 ## You can customize the date format as defined in
 ## http://momentjs.com/docs/#/displaying/format/
-date_format: YYYY-MM-DD HH:mm:ss
+date_format: YYYY-MM-DD
 time_format: HH:mm:ss
+date_time_format: YYYY-MM-DD HH:mm:ss
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -92,7 +103,7 @@ feed:
 
 ## Themes: https://hexo.io/themes/
 # theme: landscape
-theme: free2mind
+theme: spfk
 
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
