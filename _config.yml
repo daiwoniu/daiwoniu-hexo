@@ -37,13 +37,13 @@ titlecase: false #
 external_link: true #
 filename_case: 0
 render_drafts: false  #
-post_asset_folder: false  #
+post_asset_folder: false  # 一个文章对应一个资源目录
 relative_link: false
 future: true
 highlight:
   enable: true
   line_number: true
-  auto_detect: false
+  auto_detect: true
   tab_replace:
 
 # Category & Tag
