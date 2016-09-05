@@ -9,8 +9,7 @@ updated: 2016-08-17 18:21:23
 categories: java
 ---
 ### 2016-08-17 18:21:23
-
-listObj.subList(int fromIndex, int toIndex);
+``listObj.subList(int fromIndex, int toIndex);``
 对子list做的任何改动都会反映在原listObj上。
 相反，在原listObj上做的非结构性改动也会反映在子list上。所谓的结构性改动就是指改变list大小。
 
@@ -26,7 +25,7 @@ public static String formatNumbers(Object number){
     if(isBlankEmpty(number)){
         return "";
     }
-    DecimalFormat format = (DecimalFormat) NumberFormat.getPercentInstance();
+    DecimalFormat format = (DecimalFormat) NumberFormat.getPercentInstance();                      
     format.applyPattern("####,###,###,###,##0.00");
     String retStr = number.toString();
     try{
@@ -62,7 +61,7 @@ public static String replaceStr(String content, Map<String, Object> contextParam
  * @param length 字符串长度
  * @return
  */
-public static String getRandomString(String base, int length) { //length表示生成字符串的长度
+public static String getRandomString(String base, int length) { //length表示生成字符串的长度                          
     if(isBlankEmpty(base)){
         base = "abcdefghijklmnopqrstuvwxyz0123456789";
     }
@@ -130,7 +129,7 @@ public static boolean isMobile(String str)
             str = str.replaceAll(" ","");
         }
         Matcher ma;
-        Pattern pa = Pattern.compile("^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1})|(17[0-9]{1})|(14[0-9]{1}))+\\d{8})$");
+        Pattern pa = Pattern.compile("^(((13[0-9]{1})|(15[0-9]{1})|(18[0-9]{1})|(17[0-9]{1})|(14[0-9]{1}))+\\d{8})$");                     
         ma = pa.matcher(str);
         boolean tmp = ma.matches();
         if(tmp && str.length() == 11){

@@ -1,7 +1,7 @@
 ---
 title: 网站导航
 date: 2016-08-19 13:25:24
-updated: 2016-08-19 13:25:24
+updated: 2016-08-25 12:51:00
 categories: 娱乐
 tags: [娱乐,网址,电影,音乐]
 ---
@@ -17,6 +17,13 @@ tags: [娱乐,网址,电影,音乐]
 <!--more-->
 > ##### 网络电视30天回看网站
     webftp.bbs.hnol.net/dysr/201001/CCTV_very/CNTV_20100802.htm
+> #### 影视资讯网站
+    movie.douban.com
+    www.mtime.com
+    www.imdb.com
+    movies.yahoo.co.jp
+    eiga.com
+    movie.walkerplus.com
 
 #### 音乐网站
 > ##### 原创音乐网站
