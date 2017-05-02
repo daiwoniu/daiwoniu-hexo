@@ -57,5 +57,5 @@ categories: 开发工具
 	$vi conf/activemq.xml
 	// 修改broker节点的属性
 	$
-
+	``` 
 #### ActiveMQ使用：
