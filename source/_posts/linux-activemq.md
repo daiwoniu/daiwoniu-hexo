@@ -11,21 +11,16 @@ categories: 开发工具
 
 #### ActiveMQ安装
 > 1. 下载
-
 	`` $wget http://archive.apache.org/dist/activemq/5.14.4/apache-activemq-5.14.4-bin.tar.gz ``
-
 <!--more-->
-
 > 2. 安装
-
 	``` 
 	$
 	// 解压 
 	$tar -xzf apache-activemq-5.14.4-bin.tar.gz
+	$ 
 	```
-
 > 3. 启动
-
 	``` 
 	$
 	// 默认8061端口，默认用户admin/admin
@@ -38,9 +33,7 @@ categories: 开发工具
 	// 直接在浏览器打开：127.0.0.1:8061
 	$
 	```
-
 > 4. 关于相关配置
-
 	``` 
 	$
 	// 修改web后台页面的登录用户密码
@@ -51,20 +44,21 @@ categories: 开发工具
 	$vi conf/activemq.xml
 	// 在<broker>节点中加入以下内容
 	<plugins>
-             <simpleAuthenticationPlugin>
-                 <users>
-                     <authenticationUser username="${activemq.username}" password="${activemq.password}" groups="users,admins"/>
-                 </users>
-             </simpleAuthenticationPlugin>
+  <simpleAuthenticationPlugin>
+    <users>
+     <authenticationUser username="${activemq.username}" password="${activemq.password}" groups="users,admins"/>
+    </users>
+  </simpleAuthenticationPlugin>
 	</plugins>
 	$
 	$vi conf/credentials.properties
 	// 倒数二三行，修改用户名和密码
-	$
+	$ 
 	// 修改broker摘要信息
 	$vi conf/activemq.xml
 	// 修改broker节点的属性
 	$
 	``` 
+	```
 
-#### ActiveMQ使用：
+#### ActiveMQ使用
