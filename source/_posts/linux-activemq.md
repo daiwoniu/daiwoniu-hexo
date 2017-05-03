@@ -1,6 +1,6 @@
 ---
 title: linux下搭建ActiveMQ
-tags: [linux,activemq]
+tags: [linux,activemq,队列]
 date: 2017-05-02 13:14:10
 updated: 2017-05-02 13:14:10
 categories: 开发工具
