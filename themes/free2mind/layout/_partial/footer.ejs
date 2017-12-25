@@ -1,0 +1,8 @@
+<p><% if (config.author){ %>
+  <%= config.author %> &copy; 2016-<%= new Date().getFullYear() %>.
+  <% } else { %>
+  <%= config.title %> &copy; 2016-<%= new Date().getFullYear() %>.
+  <% } %>
+       Powered by <a href="http://hexo.io/" target="_blank">Hexo</a> and <a href="https://github.com/rudy-yuan/free2mind" target="_blank">free2mind</a>.
+      <i class="fa fa-sitemap %>"></i> <a href="/baidusitemap.xml" target="_blank"> 站点地图</a>. <a href="http://www.miitbeian.gov.cn/"><%= config.miitbeian_id %></a>.
+</p>

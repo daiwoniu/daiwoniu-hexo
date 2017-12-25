@@ -1,0 +1,81 @@
+slogan: "我是一只有拖延症的呆蜗牛."
+
+theme: lumen
+inverse: inverse
+
+menu:
+  - title: 归档
+    url: archives
+    intro: "全部归档."
+    icon: "fa fa-archive"
+  - title: 标签
+    url: tags
+    intro: "全部标签."
+    icon: "fa fa-tags"
+  - title: 分类
+    url: categories
+    intro: "所有分类."
+    icon: "fa fa-folder"
+  - title: 给我留言
+    url: message
+    intro: "给博主留言."
+    icon: "fa fa-pencil"
+  - title: 关于
+    url: about
+    intro: "关于本站和博主."
+    icon: "fa fa-user"
+  - title: RSS
+    url: atom.xml
+    intro: "RSS."
+    icon: "fa fa-rss"
+
+links:
+  - title: "我的github"
+    url: http://www.github.com/daiwoniu
+    intro: "我的 Github 账号."
+    icon: "fa fa-github"
+  - title: "我的码云"
+    url: http://git.oschina.net/daiwoniu
+    intro: "我的 git oschina 账号."
+    icon: "fa fa-git"
+  - title: "呆蜗牛爱唠叨"
+    url: http://www.daiwoniu.com
+    intro: "匿名即时聊天系统."
+    icon: "fa fa-commenting"
+  - title: "Hexo"
+    url: http://hexo.io
+    intro: "本博客架构."
+    icon: "fa fa-share"
+  - title: "Hexo-Theme-Freemind"
+    url: http://github.com/wzpan/hexo-theme-freemind
+    intro: 本博客使用的主题.
+    icon: fa fa-chain
+
+widgets:
+- search
+- broadcast
+- category
+- tagcloud
+- links
+- recent_comments
+- recent_visitor
+
+rss: atom.xml
+fancybox: true
+favicon: favicon.ico
+
+# 多说
+duoshuo_shortname: daiwoniu
+
+# Analytics
+baidu_tongji:
+  enable: false
+  siteid:
+
+# search
+swiftype_key: J-YsmRCgKivSLo7iyFt6
+
+# share widgets
+bdshare: false
+jiathis: true
+
